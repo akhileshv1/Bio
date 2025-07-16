@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 𝐅𝐋𝐀𝐒𝐇 ⚡</title>
+  <link rel="shortcut icon" href="logo.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline id="bg-video" poster="fallback.jpg">
+  <source src="bg.mp4" type="video/mp4" />
+  <!-- Fallback if video fails -->
+  <img src="fallback.jpg" alt="background image" class="fallback-image" />
+</video>
+
+  <!-- Matrix Background -->
+  <canvas id="matrix"></canvas>
+
+  <!-- Main Container -->
+  <div class="maincontainer">
+    <div class="logo">
+      <img src="logo.jpg" alt="FLASH" />
+    </div>
+
+    
+
+    <a href="https://www.instagram.com/code_name_flash" class="neon-username"> ⚡ 𝐅𝐋𝐀𝐒𝐇 ⚡ </a>
+    <p class="glitch-text"></p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/code_name_flash/" class="btn neon instagram"><i class="fa-brands fa-instagram"></i> 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌</a>
+      <a href="https://t.me/GHOSTH4CK1" class="btn neon telegram"><i class="fa-brands fa-telegram"></i> 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌</a>
+      <a href="https://www.youtube.com/@MR.CYBERARMY" class="btn neon youtube"><i class="fa-brands fa-youtube"></i> 𝐘𝐎𝐔𝐓𝐔𝐁𝐄</a>
+      <a href="https://www.facebook.com/profile.php?id=61551933616375" class="btn neon hacking"><i class="fa-brands fa-facebook"></i> 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊</a>
+      <a href="" class="btn neon website"><i class="fa-brands fa-google"></i> 𝐖𝐄𝐁𝐒𝐈𝐓𝐄</a>
+    </div>
+
+    <div id="custom-popup">
+      <p>🎉Kyu nhi hori padahi😂</p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+
+    <img src="flash.png" class="hacker-glow" alt="⚡ FLASH ⚡" onclick="showPopup()" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
